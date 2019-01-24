@@ -12,6 +12,7 @@ include = ["build.py", "LICENSE"]
 python = "^3.6"
 
 [tool.poetry.dev-dependencies]
+Cython = "^0.29.3"
 
 [build-system]
 requires = ["poetry>=0.12", "Cython"]
